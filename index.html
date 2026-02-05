@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://google.com" />
         <link rel="preconnect" href="https://search.saltyaom.com" />
-        <link rel="preload" href="./ba_pv5.mp4" as="video" />
+        <link rel="preload" href="./video.mp4" as="video" />
 
         <link
             rel="icon"
@@ -100,6 +100,13 @@
                 text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
                     -1px -1px 0 #000; */
             }
+			
+			#clock {
+				font-size: clamp(64px, 8vw, 96px);
+				font-weight: 500;
+				letter-spacing: -2px;
+			}
+
 
             #search {
                 display: flex;
@@ -999,7 +1006,7 @@
     <body id="opened">
         <div id="overlay"></div>
         <video id="bg" autoplay muted loop>
-            <source src="./ba_pv5.mp4" />
+            <source src="./video.mp4" />
         </video>
         <main id="app">
             <h1 id="time">
